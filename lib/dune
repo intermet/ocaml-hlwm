@@ -1,0 +1,4 @@
+(library
+ (name hlwm)
+ (libraries stdio unix base)
+  (preprocess (pps ppx_jane ppx_deriving.show)))
