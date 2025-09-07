@@ -2,3 +2,7 @@
  (public_name hlwm)
  (name main)
  (libraries hlwm))
+(executable
+ (public_name bar)
+ (name bar)
+ (libraries hlwm stdio base))
