@@ -1,4 +1,4 @@
 (library
  (name hlwm)
- (libraries stdio unix base)
-  (preprocess (pps ppx_jane ppx_deriving.show)))
+ (libraries stdio unix base react lwt lwt.unix lwt_react)
+  (preprocess (pps ppx_jane ppx_deriving.show lwt_ppx)))

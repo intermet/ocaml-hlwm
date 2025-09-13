@@ -1,2 +1,6 @@
+(* let main () = *)
+(*   let%lwt () = Hlwm.Bar.main () in *)
+(*   Lwt.wait () |> fst *)
 
-let () = Hlwm.Bar.process_hooks ()
+(* let () = Lwt_main.run (main ()) *)
+let () = Hlwm.Bar.run ()
