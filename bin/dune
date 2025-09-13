@@ -6,5 +6,4 @@
 (executable
  (public_name bar)
  (name bar)
- (libraries hlwm stdio base)
- (preprocess (pps lwt_ppx)))
+ (libraries hlwm stdio base))

@@ -1,5 +1,4 @@
 open! Base
-module E = Lwt_react.E
 
 module Color = struct
   type t = string
