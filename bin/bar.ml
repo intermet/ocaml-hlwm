@@ -3,4 +3,6 @@
 (*   Lwt.wait () |> fst *)
 
 (* let () = Lwt_main.run (main ()) *)
-let () = Hlwm.Bar.run ()
+(* let current_tag = Hlwm.Herbstclient.current_tag () *)
+let current_tag = int_of_string (Array.get Sys.argv 1)
+let () = Hlwm.Bar.run current_tag
